@@ -11,7 +11,7 @@ function clickSearchButton() {
 
   // シートを取得する
   $.ajax({
-    url: "https://docs.google.com/spreadsheets/d/1jSS98HKsIkEmBeurGelht3wXTiRSpPLO8XEoKYyYD9g/edit?usp=sharing",
+    url: "https://docs.google.com/spreadsheets/d/1OPq5Isns4pm6XBJQ9qX_E_qV1vYfJ2MmSsZmRDRpABg/edit?usp=sharing",
     type: "GET",
     dataType: "json",
 
@@ -21,7 +21,7 @@ function clickSearchButton() {
       var allData = sheet.allData;
 
       // データの項目の数だけ検索をくりかえす
-      for (var i = 0; i < 10; i++) {
+      for (var i = 0; i < 100; i++) {
         // もしデータの中に入力した都道府県の名前があれば
         if (prefecturesName == allData[i][0]) {
           // 名前の隣のデータ（曲名）を変数に入れる

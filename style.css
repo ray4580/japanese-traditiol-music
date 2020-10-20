@@ -30,7 +30,7 @@ header {
 }
 
 .kensaku {
-  background-color: #ffffee;
+  background-image: url(img/bg.jpg);
   color: #663300;
   padding: 10px;
 }
@@ -62,7 +62,7 @@ header {
 .searchBox {
   width: 850px;
   height: 850px;
-  background-image: url(background-search.jpg);
+  background-image: url(img/bg_arabesque.jpg);
 }
 
 .searchBox div {
