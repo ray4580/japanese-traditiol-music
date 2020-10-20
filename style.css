@@ -1,0 +1,135 @@
+h1 {
+  color: lightgoldenrodyellow;
+  font-size: 50px;
+  font-family: lobster;
+  border-style: solid;
+  border-color: orangered;
+  border-width: 10px;
+    
+  text-align: center;
+  border-radius: 60px;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+header {
+  background-image: url(img/bg_header.jpg);
+  height: 250px;
+  padding-top: 10px;
+}
+
+.setsumei {
+  font-size: 20px;
+  color: maroon;
+  background: rgba(255,255,255,0.55);
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.kensaku {
+  background-color: #ffffee;
+  color: #663300;
+  padding: 10px;
+}
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.kensaku img {
+  float: right;
+}
+
+
+
+
+/*＝＝＝＝＝ 地域に残る曲名の検索 ＝＝＝＝＝＝ */
+.guideText {
+  color: maroon;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  margin: 50px;
+}
+
+.searchBox {
+  width: 850px;
+  height: 850px;
+  background-image: url(background-search.jpg);
+}
+
+.searchBox div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*都道府県の名前*/
+.prefecturesNameBox {
+  margin-left: 150px;
+}
+
+.inputText {
+  height: 20px;
+}
+
+/*地域に残る曲名*/
+.musicNameBox {
+  margin-left: 150px;
+}
+
+.outputText {
+  font-size: 30px;
+}
+
+
+
+/*今回使っていないもの*/
+.photo {
+  padding: 30px;
+  background-image: url(wood.jpg);
+}
+
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+.photo h3 {
+  color: #663300;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;
+}
+
+.big {
+  background-color: #ffffff;
+  width: 500px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+  transform: rotate(-5deg);
+}
+
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.box {
+  float: left;
+}
+
+
