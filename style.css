@@ -63,6 +63,16 @@ header {
   margin: auto;
   width: 850px;
   height: 850px;
+  border-style: solid;
+  border-color: green;
+  border-width: 10px;
+    
+  text-align: center;
+  border-radius: 60px;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
   background-image: url(img/bg_arabesque.jpg);
 }
 
@@ -89,48 +99,5 @@ header {
   font-size: 30px;
 }
 
-
-
-/*今回使っていないもの*/
-.photo {
-  padding: 30px;
-  background-image: url(wood.jpg);
-}
-
-.photo h2 {
-  color: #ffffff;
-  border-color: #ffcc11;
-}
-
-.photo h3 {
-  color: #663300;
-}
-
-.photo p {
-  color: #ffffff;
-  clear: left;
-}
-
-.big {
-  background-color: #ffffff;
-  width: 500px;
-  padding: 15px;
-  margin: 20px;
-  box-shadow: 10px 10px 20px #000000;
-  float: left;
-  transform: rotate(-5deg);
-}
-
-.small {
-  background-color: #ffffff;
-  width: 240px;
-  padding: 15px;
-  margin: 20px;
-  box-shadow: 10px 10px 20px #000000;
-}
-
-.box {
-  float: left;
-}
 
 
