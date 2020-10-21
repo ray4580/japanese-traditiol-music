@@ -60,7 +60,7 @@ header {
 }
 
 .searchBox {
-  text-align: center;
+  margin-left: 100px;
   width: 850px;
   height: 850px;
   border-style: solid;
