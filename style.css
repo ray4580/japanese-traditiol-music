@@ -54,7 +54,7 @@ header {
 .guideText {
   color: maroon;
   font-size: 30px;
-  text-align: center;
+  margin: auto;
   padding: 20px;
   margin: 50px;
 }
